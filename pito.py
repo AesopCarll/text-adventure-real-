@@ -1,6 +1,4 @@
-from msvcrt import LK_UNLCK
-from re import A
-
+liv = 100
 
 print("Jeg ble invitert på å spise middag hos noen jeg ikke kjente, ingen kjente hverandre så vi begynte med å spørre om hverandres navn mens vi ventet på maten ved boret")
 navn=input("Mitt navn er ")
@@ -20,6 +18,10 @@ if  valg=="A":
     print("du blir igjen og dere alle som er igjen, ble drept")
     print("kroppene deres blir ikke oppdaget på flere uker å da de ble oppdaget så besvimte politiet")
     print("de fant ut hvem som sto bak dette etter en lang stund med etterforskning")
+    if liv -  100:
+        print(" - 100 ")
+        print("Game Over ")
+        exit()
     print(" :( ")
 if  valg=="B":
     print("du drar hjem og overlever")
@@ -27,4 +29,8 @@ if  valg=="B":
     print("altid vær forsiktig når det gjelder fremmede")
     print("tenk på de grufulle måtene folkene som ble igjen ble myrdret på")
     print("denne gangen var du heldig")
+    if liv +  100:
+        print(" + 100")
+        print("You Win ")
+        exit()
     print("✨")
