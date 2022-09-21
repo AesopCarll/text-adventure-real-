@@ -18,8 +18,13 @@ print("nå har dere 2 valg, dra nå for å overleve eller å bli for å kunne vi
 valg=input ("A: bli B: dra ")
 if  valg=="A":
     print("du blir igjen og dere alle som er igjen, ble drept")
+    print("kroppene deres blir ikke oppdaget på flere uker å da de ble oppdaget så besvimte politiet")
+    print("de fant ut hvem som sto bak dette etter en lang stund med etterforskning")
     print(" :( ")
 if  valg=="B":
     print("du drar hjem og overlever")
-
+    print("du ser på nyhetene flere uker senere at det har vært massemord dær du var..")
+    print("altid vær forsiktig når det gjelder fremmede")
+    print("tenk på de grufulle måtene folkene som ble igjen ble myrdret på")
+    print("denne gangen var du heldig")
     print("✨")
